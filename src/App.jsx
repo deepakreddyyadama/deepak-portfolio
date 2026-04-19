@@ -124,7 +124,14 @@ export default function PortfolioWebsite() {
       period: "Academic Project",
       description:
         "Built a medical image classification workflow on PathMNIST and applied Grad-CAM and Integrated Gradients to visualize feature importance.",
-      tech: ["Python", "PyTorch", "CNN", "Grad-CAM", "Integrated Gradients", "MedMNIST"],
+      tech: [
+        "Python",
+        "PyTorch",
+        "CNN",
+        "Grad-CAM",
+        "Integrated Gradients",
+        "MedMNIST",
+      ],
       highlights: [
         "Trained a medical image classifier for PathMNIST categories.",
         "Generated explanation heatmaps for model interpretation.",
@@ -165,8 +172,9 @@ export default function PortfolioWebsite() {
       <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
           <a href="#top" className="text-lg font-semibold tracking-wide text-white">
-            Deepak<span className="text-cyan-300">.ai</span>
+            Deepak Reddy Yadama
           </a>
+
           <nav className="hidden gap-6 md:flex">
             {navItems.map((item) => (
               <a
@@ -178,13 +186,14 @@ export default function PortfolioWebsite() {
               </a>
             ))}
           </nav>
+
           <a
             href={resumeUrl}
             target="_blank"
             rel="noreferrer"
             className="rounded-xl border border-cyan-400/25 bg-cyan-400/10 px-4 py-2 text-sm font-semibold text-cyan-200 transition hover:bg-cyan-400/15"
           >
-            Resume
+            Download Resume
           </a>
         </div>
       </header>
@@ -196,23 +205,29 @@ export default function PortfolioWebsite() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(34,211,238,0.18),transparent_28%),radial-gradient(circle_at_bottom_left,rgba(59,130,246,0.16),transparent_26%)]" />
         <div className="absolute -left-24 top-16 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl" />
         <div className="absolute -right-24 bottom-0 h-72 w-72 rounded-full bg-blue-500/10 blur-3xl" />
+
         <div className="relative mx-auto max-w-6xl px-6 py-20 lg:px-8">
           <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
             <div>
               <p className="mb-4 inline-block rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-1 text-sm tracking-wide text-cyan-300 shadow-lg shadow-cyan-500/10">
-                AI Engineer | Agentic AI | LLM Applications | RAG | Python
+                AI Engineer • Agentic AI • LLM Applications • RAG • Computer Vision
               </p>
+
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
                 Hi, I’m{" "}
                 <span className="bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">
-                  Deepak
+                  Deepak Reddy Yadama
                 </span>
               </h1>
+
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-                I build agentic AI workflows, LLM-powered applications, retrieval-augmented systems,
-                and production-oriented computer vision solutions. My focus is on shipping reliable AI
-                products with strong backend engineering, measurable results, and clean user-facing experiences.
+                I’m Deepak Reddy Yadama, an AI Engineer and Computer Science graduate
+                student focused on agentic AI, LLM applications, retrieval-augmented
+                generation, backend systems, and computer vision. I build practical,
+                reliable AI solutions with strong engineering foundations and real-world
+                impact.
               </p>
+
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
                   href="#projects"
@@ -220,34 +235,40 @@ export default function PortfolioWebsite() {
                 >
                   View Projects
                 </a>
+
                 <a
                   href="#contact"
                   className="rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
                 >
                   Contact Me
                 </a>
+
                 <a
                   href={resumeUrl}
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-2xl border border-cyan-400/30 bg-cyan-400/10 px-5 py-3 text-sm font-semibold text-cyan-200 transition hover:bg-cyan-400/15"
                 >
-                  View Resume
+                  Download Resume
                 </a>
               </div>
             </div>
 
             <div className="relative mx-auto w-full max-w-md">
               <div className="absolute -inset-3 rounded-[2rem] bg-gradient-to-br from-cyan-400/25 via-blue-400/15 to-transparent blur-2xl" />
+
               <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-3 shadow-2xl backdrop-blur">
                 <img
                   src={profileImage}
-                  alt="Deepak portrait"
+                  alt="Deepak Reddy Yadama portrait"
                   className="h-[520px] w-full rounded-[1.5rem] object-cover object-center"
                 />
+
                 <div className="absolute inset-x-6 bottom-6 rounded-2xl border border-white/10 bg-slate-950/70 p-4 backdrop-blur-md">
                   <p className="text-lg font-semibold text-white">Deepak Reddy Yadama</p>
-                  <p className="mt-1 text-sm text-cyan-300">AI Engineer • LLM Apps • RAG • Computer Vision</p>
+                  <p className="mt-1 text-sm text-cyan-300">
+                    AI Engineer • Agentic AI • LLM Applications • RAG • Computer Vision
+                  </p>
                 </div>
               </div>
             </div>
@@ -258,14 +279,16 @@ export default function PortfolioWebsite() {
       <section id="about" className="mx-auto max-w-6xl px-6 py-16 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-2">
           <div className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-xl">
-            <h2 className="text-2xl font-semibold text-cyan-300">About Me</h2>
+            <h2 className="text-2xl font-semibold text-cyan-300">About Deepak Reddy Yadama</h2>
             <p className="mt-4 leading-8 text-slate-300">
-              I am a graduate student and AI-focused engineer with hands-on experience in agentic AI,
-              retrieval-augmented generation, backend API development, observability, and applied machine learning.
+              I am a graduate student and AI-focused engineer with hands-on experience in
+              agentic AI, retrieval-augmented generation, backend API development,
+              observability, and applied machine learning.
             </p>
             <p className="mt-4 leading-8 text-slate-300">
-              I am especially interested in building reliable AI-powered products, backend systems, and
-              customer-focused software that combines strong engineering, scalable deployment, and practical business impact.
+              I am especially interested in building reliable AI-powered products, backend
+              systems, and customer-focused software that combines strong engineering,
+              scalable deployment, and practical business impact.
             </p>
           </div>
 
@@ -295,6 +318,7 @@ export default function PortfolioWebsite() {
                   {item.period}
                 </span>
               </div>
+
               <ul className="mt-5 space-y-2 text-sm leading-7 text-slate-300">
                 {item.points.map((point) => (
                   <li key={point}>• {point}</li>
@@ -329,7 +353,9 @@ export default function PortfolioWebsite() {
       <section id="projects" className="mx-auto max-w-6xl px-6 py-16 lg:px-8">
         <div>
           <h2 className="text-3xl font-semibold text-cyan-300">Projects</h2>
-          <p className="mt-2 text-slate-400">Selected work across research, internships, and applied development.</p>
+          <p className="mt-2 text-slate-400">
+            Selected work across research, internships, and applied development.
+          </p>
         </div>
 
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
@@ -372,10 +398,15 @@ export default function PortfolioWebsite() {
       </section>
 
       <section id="certifications" className="mx-auto max-w-6xl px-6 py-16 lg:px-8">
-        <h2 className="text-3xl font-semibold text-cyan-300">Certifications & Professional Development</h2>
+        <h2 className="text-3xl font-semibold text-cyan-300">
+          Certifications & Professional Development
+        </h2>
         <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {certifications.map((item) => (
-            <div key={item} className="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm leading-7 text-slate-300 shadow-lg">
+            <div
+              key={item}
+              className="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm leading-7 text-slate-300 shadow-lg"
+            >
               {item}
             </div>
           ))}
@@ -384,14 +415,20 @@ export default function PortfolioWebsite() {
 
       <section id="contact" className="mx-auto max-w-6xl px-6 py-16 lg:px-8">
         <div className="rounded-3xl border border-cyan-400/20 bg-gradient-to-br from-cyan-400/10 to-blue-500/10 p-8 shadow-2xl">
-          <h2 className="text-3xl font-semibold text-white">Let’s Connect</h2>
+          <h2 className="text-3xl font-semibold text-white">Connect with Deepak Reddy Yadama</h2>
           <p className="mt-4 max-w-2xl leading-8 text-slate-200">
-            I am currently looking for opportunities in software engineering, machine learning, AI engineering, and related entry-level roles.
+            I am currently looking for opportunities in software engineering, machine
+            learning, AI engineering, and related entry-level roles.
           </p>
+
           <div className="mt-6 flex flex-wrap gap-4 text-sm text-slate-100">
-            <a href="mailto:deepakreddyyadama@gmail.com" className="rounded-full border border-white/15 px-4 py-2">
+            <a
+              href="mailto:deepakreddyyadama@gmail.com"
+              className="rounded-full border border-white/15 px-4 py-2"
+            >
               Email: deepakreddyyadama@gmail.com
             </a>
+
             <a
               href="https://www.linkedin.com/in/deepak-reddy-7a5944250/"
               target="_blank"
@@ -400,6 +437,7 @@ export default function PortfolioWebsite() {
             >
               LinkedIn Profile
             </a>
+
             <a
               href="https://github.com/deepakreddyyadama"
               target="_blank"
